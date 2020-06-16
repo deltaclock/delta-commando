@@ -7,6 +7,7 @@
         "TEMPLATE_DIR": "commandovm.win10.installer.fireeye"
     },
     "packages": [
+        {"name": "virtualbox-guest-additions-guest.install"},
         {"name": "Invoke-Phant0m.fireeye"},
         {"name": "dotnet4.6.2"},
         {"name": "dotnet4.7.2"},
