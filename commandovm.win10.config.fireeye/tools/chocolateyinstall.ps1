@@ -112,7 +112,7 @@ $wallpaperName = 'LightMale_Red.png'
 $fileBackground = Join-Path $toolsDir $wallpaperName
 $publicWallpaper = Join-Path ${env:public} $wallpaperName
 $WallpaperChanger = Join-Path $toolsDir 'WallpaperChanger.exe'
-Invoke-Expression "$WallpaperChanger $fileBackground 3"
+Invoke-Expression "$WallpaperChanger $fileBackground 2"
 # Copy background images
 $backgroundzip = 'Backgrounds.7z'
 $backgrounds = Join-Path $toolsDir $backgroundzip
