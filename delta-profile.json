@@ -203,7 +203,6 @@
         {"name": "SharpUp.fireeye"},
         {"name": "SharpView.fireeye"},
         {"name": "SharpWMI.fireeye"},
-        {"name": "spiderfoot.docker.fireeye"},
         {"name": "SpoolerScanner.fireeye"},
         {"name": "StarFighters.fireeye"},
         {"name": "SpoolSample.fireeye"},
