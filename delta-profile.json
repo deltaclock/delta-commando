@@ -8,8 +8,13 @@
     },
     "packages": [
         {"name": "Invoke-Phant0m.fireeye"},
+        {"name": "dotnet3.5"},
         {"name": "dotnet4.6.2"},
         {"name": "dotnet4.7.2"},
+
+        {"name": "Covenant.fireeye"},
+        {"name": "Elite.fireeye"},
+        {"name": "ncat.flare"},
 
         {"name": "dotnetfx"},
         {"name": "010editor.flare"},
@@ -17,16 +22,17 @@
         {"name": "die.flare"},
         {"name": "dnsd.flare"},
         {"name": "ghidra.fireeye"},
-        {"name": "idafree.flare"},
+        {"name": "idafree70.flare"},
         {"name": "volatility.flare"},
         {"name": "x64dbg.py.flare"},
         {"name": "visualstudio2019community"},
+        {"name": "visualstudio2019buildtools"},
 
 
         {"name": "cmder.fireeye"},
         {
             "name": "git",
-            "args": "--params '/GitOnlyOnPath /NoShellIntegration'"
+            "args": "--params \'/GitOnlyOnPath /NoShellIntegration\'"
         },
         {"name": "adobereader.fireeye"},
 
@@ -36,11 +42,6 @@
         {"name": "firefox.fireeye"},
 
         {"name": "vcpython27"},
-        {
-            "name": "python2.x86.nopath.flare",
-            "x64Only": true,
-            "args": "--package-parameters '/InstallDir:C:\\Python27.x86'"
-        },
         {"name": "python2"},
         {"name": "python3"},
         {"name": "golang"},
@@ -53,9 +54,7 @@
         {"name": "sysinternals.fireeye"},
         {"name": "nmap.fireeye"},
         {"name": "SublimeText3.fireeye"},
-        {"name": "ilspy.flare"},
         {"name": "dnspy.flare"},
-        {"name": "autoit.fireeye"},
 
         {"name": "telnet.fireeye"},
         {"name": "citrix-receiver.fireeye"},
@@ -133,12 +132,10 @@
         {"name": "explorersuite.flare"},
         {"name": "Exchange-AD-Privesc.fireeye"},
         {"name": "flare-floss.fireeye"},
-        {"name": "fuzzdb.fireeye"},
         {"name": "GadgetToJScript.fireeye"},
         {"name": "Generate-Macro.fireeye"},
         {"name": "Get-LAPSPasswords.fireeye"},
         {"name": "Get-ReconInfo.fireeye"},
-        {"name": "GoBuster.fireeye"},
         {"name": "GoFetch.fireeye"},
 
         {"name": "Grouper2.fireeye"},
@@ -146,7 +143,6 @@
         {"name": "impacket-examples-windows.fireeye"},
         {"name": "Internal-Monologue.fireeye"},
         {"name": "Inveigh.fireeye"},
-        {"name": "Seclists.fireeye"},
         {"name": "Invoke-ACLPwn.fireeye"},
         {"name": "Invoke-CradleCrafter.fireeye"},
         {"name": "Invoke-DCOM.fireeye"},
@@ -179,7 +175,7 @@
         {"name": "PowerShell-Suite.fireeye"},
         {"name": "PowerSploit.fireeye"},
         {"name": "PowerUpSQL.fireeye"},
-        {"name": "PowerView.fireeye"},
+        {"name": "PowerView.tfireeye"},
         {"name": "Privesc.fireeye"},
         {"name": "PrivExchange.fireeye"},
         {"name": "PSAmsi.fireeye"},
@@ -226,11 +222,9 @@
         {"name": "Watson.fireeye"},
         {"name": "vulcan.fireeye"},
         {"name": "RobotsDisallowed.fireeye"},
-        {"name": "Probable-Wordlists.fireeye"},
-        {"name": "PwnedPasswordsNTLM.fireeye"},
         {"name": "RottenPotatoNG.fireeye"},
         {"name": "SharpClipHistory.fireeye"},
         {"name": "SharpSploit.fireeye"},
-        {"name": "openvpn.fireeye", "args":"--parameters '/SELECT_SHORTCUTS=0 /SELECT_LAUNCH=0'"}
+        {"name": "openvpn.fireeye", "args":"--parameters \'/SELECT_SHORTCUTS=0 /SELECT_LAUNCH=0\'"}
     ]
 }
